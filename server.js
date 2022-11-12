@@ -176,7 +176,7 @@ function clean(){
 io.on("connection", function (socket) {
     createObject(matrix)
     socket.on("grass", fills)
-    socket.on("barev", fills1)
+    socket.on("grasseater", fills1)
     socket.on("predator", fills2)
     socket.on("water", fills4)
     socket.on("bomb", fills3)

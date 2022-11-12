@@ -43,9 +43,8 @@ setInterval(function(){
 
  
 function fills1(){
-    socket.emit("barev")
+    socket.emit("grasseater")
 }
-
 function fills2(){
     socket.emit("predator")
 }
